@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E003D3F62BE99B2C003DF09D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003D3F52BE99B2B003DF09D /* MainTabView.swift */; };
+		E0618AC52BE6F16400BF4EB3 /* IdyllicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0618AC42BE6F16400BF4EB3 /* IdyllicApp.swift */; };
+		E0618AC72BE6F16400BF4EB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0618AC62BE6F16400BF4EB3 /* ContentView.swift */; };
+		E0618AC92BE6F16900BF4EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0618AC82BE6F16900BF4EB3 /* Assets.xcassets */; };
+		E0618ACD2BE6F16900BF4EB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0618ACC2BE6F16900BF4EB3 /* Preview Assets.xcassets */; };
+		E0618AD72BE6F16A00BF4EB3 /* IdyllicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0618AD62BE6F16A00BF4EB3 /* IdyllicTests.swift */; };
+		E0618AE12BE6F16A00BF4EB3 /* IdyllicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0618AE02BE6F16A00BF4EB3 /* IdyllicUITests.swift */; };
+		E0618AE32BE6F16A00BF4EB3 /* IdyllicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0618AE22BE6F16A00BF4EB3 /* IdyllicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0618AD32BE6F16A00BF4EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0618AB92BE6F16400BF4EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0618AC02BE6F16400BF4EB3;
+			remoteInfo = Idyllic;
+		};
+		E0618ADD2BE6F16A00BF4EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0618AB92BE6F16400BF4EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0618AC02BE6F16400BF4EB3;
+			remoteInfo = Idyllic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E003D3F52BE99B2B003DF09D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E0618AC12BE6F16400BF4EB3 /* Idyllic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idyllic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0618AC42BE6F16400BF4EB3 /* IdyllicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdyllicApp.swift; sourceTree = "<group>"; };
+		E0618AC62BE6F16400BF4EB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0618AC82BE6F16900BF4EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0618ACA2BE6F16900BF4EB3 /* Idyllic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Idyllic.entitlements; sourceTree = "<group>"; };
+		E0618ACC2BE6F16900BF4EB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0618AD22BE6F16A00BF4EB3 /* IdyllicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdyllicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0618AD62BE6F16A00BF4EB3 /* IdyllicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdyllicTests.swift; sourceTree = "<group>"; };
+		E0618ADC2BE6F16A00BF4EB3 /* IdyllicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdyllicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0618AE02BE6F16A00BF4EB3 /* IdyllicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdyllicUITests.swift; sourceTree = "<group>"; };
+		E0618AE22BE6F16A00BF4EB3 /* IdyllicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdyllicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0618ABE2BE6F16400BF4EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0618ACF2BE6F16A00BF4EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0618AD92BE6F16A00BF4EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0618AB82BE6F16400BF4EB3 = {
+			isa = PBXGroup;
+			children = (
+				E0618AC32BE6F16400BF4EB3 /* Idyllic */,
+				E0618AD52BE6F16A00BF4EB3 /* IdyllicTests */,
+				E0618ADF2BE6F16A00BF4EB3 /* IdyllicUITests */,
+				E0618AC22BE6F16400BF4EB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0618AC22BE6F16400BF4EB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0618AC12BE6F16400BF4EB3 /* Idyllic.app */,
+				E0618AD22BE6F16A00BF4EB3 /* IdyllicTests.xctest */,
+				E0618ADC2BE6F16A00BF4EB3 /* IdyllicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0618AC32BE6F16400BF4EB3 /* Idyllic */ = {
+			isa = PBXGroup;
+			children = (
+				E0618AC42BE6F16400BF4EB3 /* IdyllicApp.swift */,
+				E0618AC62BE6F16400BF4EB3 /* ContentView.swift */,
+				E0618AC82BE6F16900BF4EB3 /* Assets.xcassets */,
+				E0618ACA2BE6F16900BF4EB3 /* Idyllic.entitlements */,
+				E0618ACB2BE6F16900BF4EB3 /* Preview Content */,
+				E003D3F52BE99B2B003DF09D /* MainTabView.swift */,
+			);
+			path = Idyllic;
+			sourceTree = "<group>";
+		};
+		E0618ACB2BE6F16900BF4EB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0618ACC2BE6F16900BF4EB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0618AD52BE6F16A00BF4EB3 /* IdyllicTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0618AD62BE6F16A00BF4EB3 /* IdyllicTests.swift */,
+			);
+			path = IdyllicTests;
+			sourceTree = "<group>";
+		};
+		E0618ADF2BE6F16A00BF4EB3 /* IdyllicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0618AE02BE6F16A00BF4EB3 /* IdyllicUITests.swift */,
+				E0618AE22BE6F16A00BF4EB3 /* IdyllicUITestsLaunchTests.swift */,
+			);
+			path = IdyllicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0618AC02BE6F16400BF4EB3 /* Idyllic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0618AE62BE6F16A00BF4EB3 /* Build configuration list for PBXNativeTarget "Idyllic" */;
+			buildPhases = (
+				E0618ABD2BE6F16400BF4EB3 /* Sources */,
+				E0618ABE2BE6F16400BF4EB3 /* Frameworks */,
+				E0618ABF2BE6F16400BF4EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Idyllic;
+			productName = Idyllic;
+			productReference = E0618AC12BE6F16400BF4EB3 /* Idyllic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0618AD12BE6F16A00BF4EB3 /* IdyllicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0618AE92BE6F16A00BF4EB3 /* Build configuration list for PBXNativeTarget "IdyllicTests" */;
+			buildPhases = (
+				E0618ACE2BE6F16A00BF4EB3 /* Sources */,
+				E0618ACF2BE6F16A00BF4EB3 /* Frameworks */,
+				E0618AD02BE6F16A00BF4EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0618AD42BE6F16A00BF4EB3 /* PBXTargetDependency */,
+			);
+			name = IdyllicTests;
+			productName = IdyllicTests;
+			productReference = E0618AD22BE6F16A00BF4EB3 /* IdyllicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0618ADB2BE6F16A00BF4EB3 /* IdyllicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0618AEC2BE6F16A00BF4EB3 /* Build configuration list for PBXNativeTarget "IdyllicUITests" */;
+			buildPhases = (
+				E0618AD82BE6F16A00BF4EB3 /* Sources */,
+				E0618AD92BE6F16A00BF4EB3 /* Frameworks */,
+				E0618ADA2BE6F16A00BF4EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0618ADE2BE6F16A00BF4EB3 /* PBXTargetDependency */,
+			);
+			name = IdyllicUITests;
+			productName = IdyllicUITests;
+			productReference = E0618ADC2BE6F16A00BF4EB3 /* IdyllicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0618AB92BE6F16400BF4EB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E0618AC02BE6F16400BF4EB3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E0618AD12BE6F16A00BF4EB3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E0618AC02BE6F16400BF4EB3;
+					};
+					E0618ADB2BE6F16A00BF4EB3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E0618AC02BE6F16400BF4EB3;
+					};
+				};
+			};
+			buildConfigurationList = E0618ABC2BE6F16400BF4EB3 /* Build configuration list for PBXProject "Idyllic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0618AB82BE6F16400BF4EB3;
+			productRefGroup = E0618AC22BE6F16400BF4EB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0618AC02BE6F16400BF4EB3 /* Idyllic */,
+				E0618AD12BE6F16A00BF4EB3 /* IdyllicTests */,
+				E0618ADB2BE6F16A00BF4EB3 /* IdyllicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0618ABF2BE6F16400BF4EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0618ACD2BE6F16900BF4EB3 /* Preview Assets.xcassets in Resources */,
+				E0618AC92BE6F16900BF4EB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0618AD02BE6F16A00BF4EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0618ADA2BE6F16A00BF4EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0618ABD2BE6F16400BF4EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0618AC72BE6F16400BF4EB3 /* ContentView.swift in Sources */,
+				E0618AC52BE6F16400BF4EB3 /* IdyllicApp.swift in Sources */,
+				E003D3F62BE99B2C003DF09D /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0618ACE2BE6F16A00BF4EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0618AD72BE6F16A00BF4EB3 /* IdyllicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0618AD82BE6F16A00BF4EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0618AE12BE6F16A00BF4EB3 /* IdyllicUITests.swift in Sources */,
+				E0618AE32BE6F16A00BF4EB3 /* IdyllicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0618AD42BE6F16A00BF4EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0618AC02BE6F16400BF4EB3 /* Idyllic */;
+			targetProxy = E0618AD32BE6F16A00BF4EB3 /* PBXContainerItemProxy */;
+		};
+		E0618ADE2BE6F16A00BF4EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0618AC02BE6F16400BF4EB3 /* Idyllic */;
+			targetProxy = E0618ADD2BE6F16A00BF4EB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0618AE42BE6F16A00BF4EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0618AE52BE6F16A00BF4EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E0618AE72BE6F16A00BF4EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Idyllic/Idyllic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Idyllic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idylictech.Idyllic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0618AE82BE6F16A00BF4EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Idyllic/Idyllic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Idyllic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idylictech.Idyllic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0618AEA2BE6F16A00BF4EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idylictech.IdyllicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Idyllic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Idyllic";
+			};
+			name = Debug;
+		};
+		E0618AEB2BE6F16A00BF4EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idylictech.IdyllicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Idyllic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Idyllic";
+			};
+			name = Release;
+		};
+		E0618AED2BE6F16A00BF4EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idylictech.IdyllicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Idyllic;
+			};
+			name = Debug;
+		};
+		E0618AEE2BE6F16A00BF4EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idylictech.IdyllicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Idyllic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0618ABC2BE6F16400BF4EB3 /* Build configuration list for PBXProject "Idyllic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0618AE42BE6F16A00BF4EB3 /* Debug */,
+				E0618AE52BE6F16A00BF4EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0618AE62BE6F16A00BF4EB3 /* Build configuration list for PBXNativeTarget "Idyllic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0618AE72BE6F16A00BF4EB3 /* Debug */,
+				E0618AE82BE6F16A00BF4EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0618AE92BE6F16A00BF4EB3 /* Build configuration list for PBXNativeTarget "IdyllicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0618AEA2BE6F16A00BF4EB3 /* Debug */,
+				E0618AEB2BE6F16A00BF4EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0618AEC2BE6F16A00BF4EB3 /* Build configuration list for PBXNativeTarget "IdyllicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0618AED2BE6F16A00BF4EB3 /* Debug */,
+				E0618AEE2BE6F16A00BF4EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0618AB92BE6F16400BF4EB3 /* Project object */;
+}
