@@ -15,6 +15,7 @@
 		E0618AD72BE6F16A00BF4EB3 /* IdyllicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0618AD62BE6F16A00BF4EB3 /* IdyllicTests.swift */; };
 		E0618AE12BE6F16A00BF4EB3 /* IdyllicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0618AE02BE6F16A00BF4EB3 /* IdyllicUITests.swift */; };
 		E0618AE32BE6F16A00BF4EB3 /* IdyllicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0618AE22BE6F16A00BF4EB3 /* IdyllicUITestsLaunchTests.swift */; };
+		E0A5AA482BEFE4A800FFBEA4 /* CoverPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5AA472BEFE4A800FFBEA4 /* CoverPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E0618ADC2BE6F16A00BF4EB3 /* IdyllicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdyllicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0618AE02BE6F16A00BF4EB3 /* IdyllicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdyllicUITests.swift; sourceTree = "<group>"; };
 		E0618AE22BE6F16A00BF4EB3 /* IdyllicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdyllicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0A5AA472BEFE4A800FFBEA4 /* CoverPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E0618ACA2BE6F16900BF4EB3 /* Idyllic.entitlements */,
 				E0618ACB2BE6F16900BF4EB3 /* Preview Content */,
 				E003D3F52BE99B2B003DF09D /* MainTabView.swift */,
+				E0A5AA472BEFE4A800FFBEA4 /* CoverPageView.swift */,
 			);
 			path = Idyllic;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0618AC72BE6F16400BF4EB3 /* ContentView.swift in Sources */,
+				E0A5AA482BEFE4A800FFBEA4 /* CoverPageView.swift in Sources */,
 				E0618AC52BE6F16400BF4EB3 /* IdyllicApp.swift in Sources */,
 				E003D3F62BE99B2C003DF09D /* MainTabView.swift in Sources */,
 			);
